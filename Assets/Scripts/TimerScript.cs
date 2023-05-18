@@ -10,7 +10,6 @@ public class TimerScript : MonoBehaviour
     void Start()
     {
         timerText = GetComponent<TextMeshPro>();
-        StartTimer();
     }
 
     void Update()
@@ -42,11 +41,14 @@ public class TimerScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("portal"))
+        if (other.gameObject.CompareTag("start"))
+        {
+            StartTimer();
+        }
+        else if (other.gameObject.CompareTag("portal"))
         {
             StopTimer();
             Debug.Log("Hello, world!");    
         }
-    }
-    
+    }   
 }
