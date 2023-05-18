@@ -8,6 +8,7 @@
     <list default="true" id="1714a74b-8d6c-43a4-abe9-f5ef63f1c057" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Move.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/move_palyer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +82,7 @@
       <workItem from="1684061035615" duration="10933000" />
       <workItem from="1684134615654" duration="619000" />
       <workItem from="1684397585828" duration="4269000" />
+      <workItem from="1684439513952" duration="675000" />
     </task>
     <servers />
   </component>
@@ -99,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
