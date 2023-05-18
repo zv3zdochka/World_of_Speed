@@ -6,6 +6,9 @@ TagManager:
   tags:
   - portal
   - start
+  - Coin
+  - Bo_up
+  - Bo_down
   layers:
   - Default
   - TransparentFX
