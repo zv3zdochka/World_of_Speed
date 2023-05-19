@@ -39,8 +39,6 @@
 
 ![Отбойник](images_for_readme/bumper.png)
 
-![Отбойник](images_for_readme/bumper.png)
-
 ![Отбойник](images_for_readme/b1.png)
 
 ![Отбойник](images_for_readme/b2.png)
