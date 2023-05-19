@@ -204,6 +204,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &3701568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3701563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5555271, y: 3.8537529, z: 0.69785047}
+  m_Center: {x: 0, y: 0.007861257, z: 0}
 --- !u!1001 &14413860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -645,6 +658,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &28474228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28474223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8588815, y: 3.8588817, z: 0.6986003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &29300785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -726,6 +752,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &29300791
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29300786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8588817, y: 3.8588817, z: 0.69860035}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &29511515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1201,6 +1240,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &85293632
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85293627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5555269, y: 3.8537529, z: 0.6978504}
+  m_Center: {x: 0, y: 0.007861257, z: 0}
 --- !u!4 &88666877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3494328004225944055, guid: 298a44594b5bb5545a2e4e0589c3c543, type: 3}
@@ -1428,6 +1480,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &111098833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111098828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8588815, y: 3.8588817, z: 0.6986003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &112455630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4034,6 +4099,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &331638834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331638829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5555269, y: 3.8537529, z: 0.69785047}
+  m_Center: {x: -6.589229e-11, y: 0.007861257, z: 7.321366e-12}
 --- !u!1001 &331841839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6920,6 +6998,24 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &572842401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572842396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5555272, y: 3.8537529, z: 0.6978506}
+  m_Center: {x: 0, y: 0.007861257, z: 0}
+--- !u!1 &573969361 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 950377666402935899, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
+  m_PrefabInstance: {fileID: 1940973156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &584801710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9672,6 +9768,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &794155982
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794155977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5555271, y: 3.8537529, z: 0.6978504}
+  m_Center: {x: 0.0000011920929, y: 0.007861257, z: 0}
 --- !u!4 &794586910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7745773677954428063, guid: 11318eb3fe3cac2499159d6a437003b8, type: 3}
@@ -15455,6 +15564,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &1348876471
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348876466}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8588817, y: 3.8588817, z: 0.69860035}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1350309170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15633,6 +15755,10 @@ PrefabInstance:
     - target: {fileID: 3294564219125457607, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_Name
       value: Free Racing Car Red Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3294564219125457607, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7514724142118017493, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
       propertyPath: m_Mass
@@ -21491,6 +21617,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 467173554205048545, guid: 18ab59e03c7a63c4dbfb26d2ca862d41, type: 3}
   m_PrefabInstance: {fileID: 1940973156}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1940973161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573969361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04c2aa4f86ca6384e9a9c6d234cdef24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceSpeed: 8
+  bounceAmplitude: 0.05
+  rotationSpeed: 90
 --- !u!1001 &1942882554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21584,6 +21725,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &1942882560
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942882555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8588827, y: 3.8588817, z: 0.69860053}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1949454346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22863,6 +23017,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &2123123190
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123123185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.555527, y: 3.8537529, z: 0.69785035}
+  m_Center: {x: 0.0000011920928, y: 0.007861257, z: 0}
 --- !u!4 &2127008929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7745773677954428063, guid: 11318eb3fe3cac2499159d6a437003b8, type: 3}

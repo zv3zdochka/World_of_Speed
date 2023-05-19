@@ -28,6 +28,7 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>images_for_readme</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>

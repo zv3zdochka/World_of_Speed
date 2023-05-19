@@ -11,8 +11,8 @@ public class Move : MonoBehaviour
     public float sideSpeed = 0f; // Боковая скорость
     public float rotateSpeed = 50f; // Скорость поворота
     public int coins = 0;
-    public float acceleration = 0.01f; // Ускорение
-    public float deceleration = 0.02f; // Замедление
+    public float acceleration = 0.03f; // Ускорение
+    public float deceleration = 0.06f; // Замедление
 
     public float liftedObjectHeight = 2f; // Высота поднятия объекта
     public float liftedObjectDuration = 2f; // Продолжительность поднятия объекта
