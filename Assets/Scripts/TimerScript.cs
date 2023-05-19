@@ -19,6 +19,7 @@ public class TimerScript : MonoBehaviour
             timeRemaining += Time.deltaTime;
             UpdateTimerText();
         }
+        
     }
 
     void UpdateTimerText()
@@ -39,16 +40,5 @@ public class TimerScript : MonoBehaviour
         isTimerRunning = false;
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("start"))
-        {
-            StartTimer();
-        }
-        else if (other.gameObject.CompareTag("portal"))
-        {
-            StopTimer();
-            Debug.Log("Hello, world!");    
-        }
-    }   
+       
 }

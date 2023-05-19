@@ -779,27 +779,27 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1715046352}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.930869
+      value: -635.18286
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9879701
+      value: 137.40186
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.71834
+      value: -363.36014
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70401657
+      value: 0.7040165
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalRotation.x
@@ -807,7 +807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7101837
+      value: -0.7101836
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
       propertyPath: m_LocalRotation.z
@@ -3870,7 +3870,7 @@ Transform:
   m_GameObject: {fileID: 609493014}
   m_LocalRotation: {x: -0, y: -0.6803267, z: -0, w: 0.732909}
   m_LocalPosition: {x: -654.7, y: 137.45387, z: -363.5}
-  m_LocalScale: {x: 8.351854, y: 3.0511, z: 1.1073472}
+  m_LocalScale: {x: 23.008524, y: 11.738497, z: 1.1073472}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1715046352}
@@ -7200,7 +7200,7 @@ Transform:
   - {fileID: 1910292039}
   - {fileID: 2128418288}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1082659051
 PrefabInstance:
@@ -9884,6 +9884,24 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!4 &1438378619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3c37ffcb9b2db5047b607bc24b6fa485, type: 3}
+  m_PrefabInstance: {fileID: 104652105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1438378620
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438378617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.216306, y: 4.0115976, z: 1.5730472}
+  m_Center: {x: 0.00086939364, y: 0.017825961, z: 0}
 --- !u!1001 &1449600962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10105,7 +10123,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1467845653
 PrefabInstance:
@@ -12322,8 +12340,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 609493015}
+  - {fileID: 1438378619}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1722375477
 PrefabInstance:
@@ -14716,7 +14735,7 @@ Transform:
   m_Children:
   - {fileID: 2074341311}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: -78.153, z: 0}
 --- !u!1001 &2074341310
 PrefabInstance:
@@ -14801,8 +14820,24 @@ MonoBehaviour:
   maxSpeed: 50
   sideSpeed: 0
   rotateSpeed: 50
-  scores: 0
-  highScore: 0
+  coins: 0
+  acceleration: 0.01
+  deceleration: 0.02
+  liftedObjectHeight: 2
+  liftedObjectDuration: 2
+--- !u!114 &2074341314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074341312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d64a9d8bc28e448253dfb55d9fff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 1361075492}
 --- !u!1001 &2075490757
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2113,7 +2113,7 @@ Transform:
   m_GameObject: {fileID: 437118095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -645.4937, y: 137.45387, z: -401.62848}
-  m_LocalScale: {x: 8.351854, y: 3.0511, z: 1.1073472}
+  m_LocalScale: {x: 41.841118, y: 9.423933, z: 1.1073472}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727745325}
@@ -5253,8 +5253,24 @@ MonoBehaviour:
   maxSpeed: 50
   sideSpeed: 0
   rotateSpeed: 50
-  scores: 0
-  highScore: 0
+  coins: 0
+  acceleration: 0.01
+  deceleration: 0.02
+  liftedObjectHeight: 2
+  liftedObjectDuration: 2
+--- !u!114 &1172316203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172316201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d64a9d8bc28e448253dfb55d9fff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 344925303}
 --- !u!1001 &1178348128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6246,6 +6262,19 @@ MonoBehaviour:
   bounceSpeed: 8
   bounceAmplitude: 0.05
   rotationSpeed: 90
+--- !u!65 &1392702338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392702335}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.216305, y: 4.0115976, z: 1.5730466}
+  m_Center: {x: 0.00086939335, y: 0.017825961, z: 0}
 --- !u!4 &1394454088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8935095989379886729, guid: f5d3c5e0f5f32c141911c08deee9e94d, type: 3}
