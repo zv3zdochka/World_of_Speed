@@ -1,10 +1,19 @@
-
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class StartFinishScript : MonoBehaviour
 {
     public TimerScript timer;
 
+    
+    
+    private void RestartScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+    
+    
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("start"))
@@ -37,5 +46,13 @@ public class StartFinishScript : MonoBehaviour
             Destroy(other.gameObject);
         }
         
+        
+        if (other.gameObject.CompareTag("Respawn"))
+        {
+            RestartScene();
+        }
+        
+        
+    
     }   
 }
