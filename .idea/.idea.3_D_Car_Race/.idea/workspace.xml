@@ -6,11 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1714a74b-8d6c-43a4-abe9-f5ef63f1c057" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL_5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL_5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +28,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/move_palyer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +90,7 @@
       <workItem from="1684518618475" duration="13000" />
       <workItem from="1684518659803" duration="207000" />
       <workItem from="1684518963562" duration="6588000" />
-      <workItem from="1684611331402" duration="922000" />
+      <workItem from="1684611331402" duration="1781000" />
     </task>
     <servers />
   </component>

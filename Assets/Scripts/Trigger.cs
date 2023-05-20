@@ -29,7 +29,7 @@ using UnityEngine;
             else if (other.CompareTag("Bo_down"))
             {
                 Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
-                player.speed -= player.acceleration * 5;
+                player.speed -= player.acceleration * 10;
                 
             }
             else if (other.CompareTag("Coin"))
