@@ -23,7 +23,16 @@ public class StartFinishScript : MonoBehaviour
         else if (other.gameObject.CompareTag("portal"))
         {
             timer.StopTimer();
-            Destroy(other.gameObject);   
+            Destroy(other.gameObject);
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            
+            float timeInSeconds = timer.GetTime();
+
+            int seconds = Mathf.FloorToInt(timeInSeconds);
+            PlayerPrefs.SetInt(currentSceneName, seconds);
+            Debug.Log(seconds);
+            SceneManager.LoadScene("Menu");
+
         }
         
         

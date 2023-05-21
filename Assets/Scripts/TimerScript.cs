@@ -39,6 +39,10 @@ public class TimerScript : MonoBehaviour
     {
         isTimerRunning = false;
     }
+    public float GetTime()
+    {
+        return timeRemaining;
+    }
 
        
 }

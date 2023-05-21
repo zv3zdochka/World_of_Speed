@@ -11,6 +11,8 @@
         <e p="Materials" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="but.cs" t="Include" />
+          <e p="Level_timer.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="ObjectBounce.cs" t="Include" />
           <e p="StartFinishScript.cs" t="Include" />
