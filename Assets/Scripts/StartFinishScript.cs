@@ -4,6 +4,7 @@ using UnityEngine;
 public class StartFinishScript : MonoBehaviour
 {
     public TimerScript timer;
+    public int mon = 0;
 
     
     
@@ -27,10 +28,15 @@ public class StartFinishScript : MonoBehaviour
             string currentSceneName = SceneManager.GetActiveScene().name;
             
             float timeInSeconds = timer.GetTime();
-
             int seconds = Mathf.FloorToInt(timeInSeconds);
             PlayerPrefs.SetInt(currentSceneName, seconds);
-            Debug.Log(seconds);
+            
+            
+            Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
+            mon = PlayerPrefs.GetInt("Money");
+            
+            PlayerPrefs.SetInt("Money", player.coins + mon);
+            
             SceneManager.LoadScene("Menu");
 
         }

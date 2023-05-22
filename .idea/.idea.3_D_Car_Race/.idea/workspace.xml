@@ -10,8 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/but.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/but.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/../Casual-Racer-master/Assets/Scripts/Controls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/StartFinishScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level_timer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -36,10 +36,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Level_timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money_script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Money.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +102,8 @@
       <workItem from="1684518963562" duration="6588000" />
       <workItem from="1684611331402" duration="2377000" />
       <workItem from="1684697438961" duration="3039000" />
+      <workItem from="1684744294130" duration="2537000" />
+      <workItem from="1684747014169" duration="622000" />
     </task>
     <servers />
   </component>
