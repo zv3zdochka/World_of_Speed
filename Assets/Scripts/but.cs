@@ -2,20 +2,23 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class but : MonoBehaviour
 {
     
-    public int click = 0;
-    private void Start()
+
+    
+    public void Shop()
     {
-        click += 1;
+        SceneManager.LoadScene("Shop");
     }
     
-    public void But_click()
+    public void Exit()
     {
-        Start();
-        Debug.Log(click);
+        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
+
     }
     
     

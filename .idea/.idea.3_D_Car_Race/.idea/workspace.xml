@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1714a74b-8d6c-43a4-abe9-f5ef63f1c057" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Money.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/but.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/but.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +19,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../Casual-Racer-master/Assets/Scripts/Controls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/StartFinishScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level_timer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,12 +32,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Level_timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Money_script.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Money.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +101,7 @@
       <workItem from="1684697438961" duration="3039000" />
       <workItem from="1684744294130" duration="2537000" />
       <workItem from="1684747014169" duration="622000" />
-      <workItem from="1684913291427" duration="1521000" />
+      <workItem from="1684913291427" duration="1838000" />
     </task>
     <servers />
   </component>
