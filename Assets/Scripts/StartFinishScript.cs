@@ -23,7 +23,7 @@ public class StartFinishScript : MonoBehaviour
         switch (level)
         {
             case "LEVEL_1":
-                if (sec <= 10)
+                if (sec <= 12)
                     return 3;
                 else if (sec <= 15)
                     return 2;
