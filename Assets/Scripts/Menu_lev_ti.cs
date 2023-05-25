@@ -1,7 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Level_timer : MonoBehaviour
+public class Menu_lev_ti : MonoBehaviour
 {
     public GameObject levelIconPrefab; 
     public Transform iconsParent; 
@@ -12,16 +14,16 @@ public class Level_timer : MonoBehaviour
         for (int level = 1; level <= 5; level++)
         {
             
-            GameObject levelIcon = Instantiate(levelIconPrefab, iconsParent);
+            //GameObject levelIcon = Instantiate(levelIconPrefab, iconsParent);
 
             
-            float time = PlayerPrefs.GetFloat("LevelTime_" + level, 0f);
+            float stars = PlayerPrefs.GetFloat("LEVEL_" + level, 0f);
 
             
-            int stars = Mathf.FloorToInt(time / 10f);
+            //int stars = Mathf.FloorToInt(time / 10f);
 
             
-            SetStarsCount(levelIcon, stars);
+            //SetStarsCount(levelIcon, stars);
         }
     }
 

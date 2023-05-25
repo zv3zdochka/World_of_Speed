@@ -5,7 +5,7 @@ public class StartFinishScript : MonoBehaviour
 {
     public TimerScript timer;
     public int mon = 0;
-
+    public int stars; 
     
     
     private void RestartScene()
@@ -13,6 +13,63 @@ public class StartFinishScript : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
+
+    
+    
+    
+    
+    static int Return_stars(int sec, string level)
+    {
+        switch (level)
+        {
+            case "LEVEL_1":
+                if (sec <= 10)
+                    return 3;
+                else if (sec <= 15)
+                    return 2;
+                else
+                    return 1;
+
+            case "LEVEL_2":
+                if (sec <= 20)
+                    return 3;
+                else if (sec <= 25)
+                    return 2;
+                else
+                    return 1;
+
+            case "LEVEL_3":
+                if (sec <= 20)
+                    return 3;
+                else if (sec <= 25)
+                    return 2;
+                else
+                    return 1;
+
+            case "LEVEL_4":
+                if (sec <= 23)
+                    return 3;
+                else if (sec <= 27)
+                    return 2;
+                else
+                    return 1;
+
+            case "LEVEL_5":
+                if (sec <= 40)
+                    return 3;
+                else if (sec <= 50)
+                    return 2;
+                else
+                    return 1;
+
+            default:
+               Debug.Log("Уровень не распознан.");
+                return -1;
+        }
+    }
+    
+    
+    
     
     
     void OnTriggerEnter(Collider other)
@@ -29,8 +86,8 @@ public class StartFinishScript : MonoBehaviour
             
             float timeInSeconds = timer.GetTime();
             int seconds = Mathf.FloorToInt(timeInSeconds);
-            PlayerPrefs.SetInt(currentSceneName, seconds);
-            
+            stars = Return_stars(seconds, currentSceneName);
+            PlayerPrefs.SetInt(currentSceneName, stars);
             
             Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
             mon = PlayerPrefs.GetInt("Money");
