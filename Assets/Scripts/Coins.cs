@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class Coins: MonoBehaviour
 {
-    public Text money_text;
+    public TMP_Text money_text;
     public int money = 0;
     void Start()
     {
-        money_text = GetComponent<Text>();
+        money_text = GetComponent<TMP_Text>();
         Debug.Log(money_text == null);
     }
 
@@ -20,7 +20,7 @@ public class Coins: MonoBehaviour
         
         money = PlayerPrefs.GetInt("Money");    
         Debug.Log(money);
-        money_text.text = "Money: " + money.ToString();
+        money_text.text = "Money:" + money.ToString();
 
     }
     
