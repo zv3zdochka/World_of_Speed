@@ -6,9 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1714a74b-8d6c-43a4-abe9-f5ef63f1c057" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photoes/35e24040202013.57759b1aefa7b.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photoes/35e24040202013.57759b1aefa7b.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/but.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/but.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +45,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test+coins.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
       <workItem from="1684913291427" duration="2501000" />
       <workItem from="1685029166660" duration="136000" />
       <workItem from="1685029381172" duration="8235000" />
-      <workItem from="1685040322541" duration="1703000" />
+      <workItem from="1685040322541" duration="2522000" />
     </task>
     <servers />
   </component>

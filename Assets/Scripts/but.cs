@@ -62,6 +62,12 @@ public class but : MonoBehaviour
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("Menu");
     }
+
+
+    public void back()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
 
 
