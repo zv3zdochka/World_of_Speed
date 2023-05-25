@@ -8,11 +8,13 @@
     <list default="true" id="1714a74b-8d6c-43a4-abe9-f5ef63f1c057" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3_D_Car_Race/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1667546227_3-43.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/1667546227_3-43.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level_timer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level_timer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu_lev_ti.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu_lev_ti.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/draw_stars.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/draw_stars.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../Casual-Racer-master/Assets/Scripts/Controls.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/StartFinishScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Move.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,7 +47,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu_lev_ti.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DrawStars.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/draw_stars.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +117,7 @@
       <workItem from="1684747014169" duration="622000" />
       <workItem from="1684913291427" duration="2501000" />
       <workItem from="1685029166660" duration="136000" />
-      <workItem from="1685029381172" duration="2672000" />
+      <workItem from="1685029381172" duration="8235000" />
     </task>
     <servers />
   </component>
