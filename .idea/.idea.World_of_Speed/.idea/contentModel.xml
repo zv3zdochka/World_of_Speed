@@ -18,6 +18,7 @@
           <e p="ObjectBounce.cs" t="Include" />
           <e p="PlayerPrefsClear.cs" t="Include" />
           <e p="Rubbish.cs" t="Include" />
+          <e p="SkinChanger.cs" t="Include" />
           <e p="StarDrawer.cs" t="Include" />
           <e p="StartFinishScript.cs" t="Include" />
           <e p="TimerScript.cs" t="Include" />
@@ -93,7 +94,9 @@
               </e>
             </e>
             <e p="Textures" t="Include">
-              <e p="Color Variations" t="Include" />
+              <e p="Color Variations" t="Include">
+                <e p="Materials" t="Include" />
+              </e>
             </e>
           </e>
           <e p="BEDRILL" t="Include">
