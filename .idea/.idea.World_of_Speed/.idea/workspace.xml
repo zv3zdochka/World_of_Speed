@@ -28,12 +28,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shoper.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skin_changer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkinChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shoper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/clc.cs" />
       </list>
     </option>
   </component>
@@ -47,6 +52,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -79,6 +90,7 @@
       <updated>1685050572881</updated>
       <workItem from="1685050582590" duration="608000" />
       <workItem from="1685052701181" duration="1309000" />
+      <workItem from="1685097563997" duration="1390000" />
     </task>
     <servers />
   </component>

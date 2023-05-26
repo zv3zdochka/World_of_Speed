@@ -7,17 +7,39 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Asphalt_materials" t="Include">
+          <e p="Materials" t="Include" />
+          <e p="Scenes" t="Include" />
+          <e p="Textures" t="Include">
+            <e p="Asphalt_texture1" t="Include" />
+            <e p="Asphalt_texture10" t="Include" />
+            <e p="Asphalt_texture11" t="Include" />
+            <e p="Asphalt_texture12" t="Include" />
+            <e p="Asphalt_texture13" t="Include" />
+            <e p="Asphalt_texture14" t="Include" />
+            <e p="Asphalt_texture2" t="Include" />
+            <e p="Asphalt_texture3" t="Include" />
+            <e p="Asphalt_texture4" t="Include" />
+            <e p="Asphalt_texture5" t="Include" />
+            <e p="Asphalt_texture6" t="Include" />
+            <e p="Asphalt_texture7" t="Include" />
+            <e p="Asphalt_texture8" t="Include" />
+            <e p="Asphalt_texture9" t="Include" />
+          </e>
+        </e>
         <e p="Fonts" t="Include" />
         <e p="Materials" t="Include" />
         <e p="Photoes" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="but.cs" t="Include" />
+          <e p="clc.cs" t="Include" />
           <e p="Coins.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="ObjectBounce.cs" t="Include" />
           <e p="PlayerPrefsClear.cs" t="Include" />
           <e p="Rubbish.cs" t="Include" />
+          <e p="Shoper.cs" t="Include" />
           <e p="SkinChanger.cs" t="Include" />
           <e p="StarDrawer.cs" t="Include" />
           <e p="StartFinishScript.cs" t="Include" />
