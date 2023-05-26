@@ -27,6 +27,23 @@
             <e p="Asphalt_texture9" t="Include" />
           </e>
         </e>
+        <e p="Car Engine Sound - Rotary x8 Free" t="Include">
+          <e p="Assets" t="Include">
+            <e p="Audio" t="Include">
+              <e p="Read Me.txt" t="Include" />
+              <e p="Rotary_X8_Free" t="Include">
+                <e p="Interior" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Documentation" t="Include">
+            <e p="Read Me.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Engines" t="Include">
+          <e p="Engines SFX" t="Include" />
+          <e p="Misc SFX" t="Include" />
+        </e>
         <e p="Fonts" t="Include" />
         <e p="Materials" t="Include" />
         <e p="Photoes" t="Include" />
@@ -41,6 +58,7 @@
           <e p="Rubbish.cs" t="Include" />
           <e p="Shoper.cs" t="Include" />
           <e p="SkinChanger.cs" t="Include" />
+          <e p="sound.cs" t="Include" />
           <e p="StarDrawer.cs" t="Include" />
           <e p="StartFinishScript.cs" t="Include" />
           <e p="TimerScript.cs" t="Include" />
@@ -59,6 +77,13 @@
             <e p="Slider Buttons" t="Include" />
             <e p="Slides" t="Include" />
           </e>
+        </e>
+        <e p="Stroll at Night - Ambient Soundtrack" t="Include">
+          <e p="BGMController.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
+          <e p="OGG" t="Include" />
+          <e p="Read Me!.txt" t="Include" />
+          <e p="WAV" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Documentation" t="Include" />

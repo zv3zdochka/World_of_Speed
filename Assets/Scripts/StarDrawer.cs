@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using Unity.Audio;
 public class StarDrawer : MonoBehaviour
 {
     public GameObject starPrefab;
     public Transform canvasTransform;
-
+    private AudioSource audioSource;
     int GetStarsCount(string levelName)
     {
         return PlayerPrefs.GetInt(levelName, 0);
@@ -109,6 +109,17 @@ public class StarDrawer : MonoBehaviour
         LEVEL_3();
         LEVEL_4();
         LEVEL_5();
+        audioSource = GetComponent<AudioSource>();
+        audioSource.loop = true; 
+        audioSource.Play(); 
+    }
+    
+    void Update()
+    {
         
+        if (!gameObject.activeInHierarchy)
+        {
+            audioSource.Stop(); 
+        }
     }
 }

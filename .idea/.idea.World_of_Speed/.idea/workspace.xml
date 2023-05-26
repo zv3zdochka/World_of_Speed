@@ -30,15 +30,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shoper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/sound.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skin_changer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkinChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shoper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/clc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +94,7 @@
       <updated>1685050572881</updated>
       <workItem from="1685050582590" duration="608000" />
       <workItem from="1685052701181" duration="1309000" />
-      <workItem from="1685097563997" duration="3010000" />
+      <workItem from="1685097563997" duration="4314000" />
     </task>
     <servers />
   </component>
