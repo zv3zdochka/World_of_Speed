@@ -1,7 +1,8 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-
 public class clc : MonoBehaviour
 {
     public int mon;
@@ -29,9 +30,16 @@ public class clc : MonoBehaviour
 
     public void back()
     {
-        sound1.Play();
-        SceneManager.LoadScene("Menu");
+        StartCoroutine(PlaySoundAndLoadScene(sound1, "Menu"));
     }
+
+    private IEnumerator PlaySoundAndLoadScene(AudioSource sound, string sceneName)
+    {
+        sound.Play();
+        yield return new WaitForSeconds(sound.clip.length);
+        SceneManager.LoadScene(sceneName);
+    }
+
 
     public void Red()
     {

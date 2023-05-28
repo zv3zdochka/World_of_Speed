@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/clc.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +97,7 @@
       <workItem from="1685050582590" duration="608000" />
       <workItem from="1685052701181" duration="1309000" />
       <workItem from="1685097563997" duration="7094000" />
-      <workItem from="1685296523861" duration="3102000" />
+      <workItem from="1685296523861" duration="4512000" />
     </task>
     <servers />
   </component>
