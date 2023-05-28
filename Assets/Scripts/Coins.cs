@@ -11,15 +11,13 @@ public class Coins: MonoBehaviour
     void Start()
     {
         money_text = GetComponent<TMP_Text>();
-        Debug.Log(money_text == null);
     }
 
     
     void Update()
     {
         
-        money = PlayerPrefs.GetInt("Money");    
-        Debug.Log(money);
+        money = PlayerPrefs.GetInt("Money");
         money_text.text = "Money:" + money.ToString();
 
     }

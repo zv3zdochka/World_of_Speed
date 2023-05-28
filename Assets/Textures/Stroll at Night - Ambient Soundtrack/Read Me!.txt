@@ -1,0 +1,35 @@
+Thank you for purchasing/downloading one of my musics.
+By doing that, you are supporting the artist to keep doing his good stuffs.
+
+Track:       Stroll at Night
+dB peak:     -1.1 dB
+Full Lenght: 02:24
+
+     INSTRUCTIONS:
+
+****The available formats are: WAV (highest quality, but heavy) and OGG (great quality, a lot lighter).
+
+****Inside the WAV and OGG files you will find 3 files with different extensions in their names:
+
+"_intro" contains just the songs introduction, and SHALL NOT be looped!
+"_loop" is the part you CAN loop.
+"_full" is the whole song. I added a fade-out at the end for a smooth ending. You can loop it too, but 
+it won't be as fluid as the "_loop" file. 
+
+
+(OPTIONAL FEATURE FOR "_intro" AND "_loop")
+****Inside the root folder, you will notice two C# files called "MusicManager" and "BGMController".
+They are made to manage the transiction from "_intro" to "_loop".
+
+1. The "MusicManager" can be left anywhere as long it's inside your Assets folder!
+2. You may attach the "BGMController" on any GameObject within your scene.
+3. Select the GameObject you attached the script, and check it's properties on Inspector.
+4. There will be two fields where you can insert Audio Clips("Intro" and "Loop").
+5. You can leave the "Intro" field in blank and just fill the "Loop". It will play and loop automatically.
+
+These two scripts were made by Chaoseiro and I have permission from him to use them in my Asset 
+https://forum.unity.com/members/chaoseiro.393197/
+------------------------------------------------------------
+Thanks for reading!
+You can contact me by e-mail: vnipote@gmail.com
+
