@@ -19,6 +19,7 @@
           <e p="engine_sound.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="ObjectBounce.cs" t="Include" />
+          <e p="pip.cs" t="Include" />
           <e p="PlayerPrefsClear.cs" t="Include" />
           <e p="Rubbish.cs" t="Include" />
           <e p="Shoper.cs" t="Include" />

@@ -119,8 +119,8 @@ public class StartFinishScript : MonoBehaviour
         if (sceneName == "-1")
         {
             RestartScene();
-        }
-        if (sceneName == "-2")
+        } 
+        else if (sceneName == "-2")
         {
             SceneManager.LoadScene("Menu");
         }
