@@ -10,11 +10,13 @@
         <e p="Fonts" t="Include" />
         <e p="Materials" t="Include" />
         <e p="Photoes" t="Include" />
+        <e p="Resources" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="but.cs" t="Include" />
           <e p="clc.cs" t="Include" />
           <e p="Coins.cs" t="Include" />
+          <e p="engine_sound.cs" t="Include" />
           <e p="Move.cs" t="Include" />
           <e p="ObjectBounce.cs" t="Include" />
           <e p="PlayerPrefsClear.cs" t="Include" />

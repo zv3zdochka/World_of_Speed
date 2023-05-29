@@ -35,9 +35,9 @@ public class StartFinishScript : MonoBehaviour
 
         border.clip = Resources.Load<AudioClip>("border");
         portal.clip = Resources.Load<AudioClip>("level");
-        bo_up.clip = Resources.Load<AudioClip>("p_down");
+        Bo_down.clip = Resources.Load<AudioClip>("p_down");
         prf.clip = Resources.Load<AudioClip>("start1");
-        Bo_down.clip = Resources.Load<AudioClip>("p_up");
+        bo_up.clip = Resources.Load<AudioClip>("p_up");
         start.clip = Resources.Load<AudioClip>("start");
         coin.clip = Resources.Load<AudioClip>("coin");
     }
@@ -100,18 +100,34 @@ public class StartFinishScript : MonoBehaviour
 
     private IEnumerator PlaySoundAndLoadScene(AudioSource sound, string sceneName)
     {
-        Debug.Log("im in");
+        
         sound.Play();
-        yield return new WaitForSeconds(sound.clip.length + 10f);
-        Debug.Log(sound.clip.length);
-        if (sceneName != null)
+        if (sceneName == "-1")
         {
-            SceneManager.LoadScene(sceneName);
+            yield return new WaitForSeconds(sound.clip.length - 0.7f);
         }
-        else if (sceneName == "-1")
+        else if (sceneName == "-2")
+        {
+            yield return new WaitForSeconds(sound.clip.length - 1.2f);
+        }
+        else
+        {
+            yield return new WaitForSeconds(sound.clip.length);
+        }
+        
+        if (sceneName == "-1")
         {
             RestartScene();
         }
+        if (sceneName == "-2")
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        else if (sceneName != null)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -123,13 +139,22 @@ public class StartFinishScript : MonoBehaviour
                 Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
                 player.speed = 0;
                 StartCoroutine(PlaySoundAndLoadScene(start, null));
+                player.speed = 0;
                 timer.StartTimer();
+                player.speed = 0;
                 isStartSoundPlaying = true;
+                player.speed = 0;
             }
         }
+        
+        
+        
         else if (other.gameObject.CompareTag("portal"))
-        {
-            StartCoroutine(PlaySoundAndLoadScene(portal, "Menu"));
+        {   
+            
+            Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
+            player.speed = 0;
+            StartCoroutine(PlaySoundAndLoadScene(portal, "-2"));
             timer.StopTimer();
             Destroy(other.gameObject);
             string currentSceneName = SceneManager.GetActiveScene().name;
@@ -137,42 +162,47 @@ public class StartFinishScript : MonoBehaviour
             int seconds = Mathf.FloorToInt(timeInSeconds);
             stars = Return_stars(seconds, currentSceneName);
             PlayerPrefs.SetInt(currentSceneName, stars);
-            Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
             mon = PlayerPrefs.GetInt("Money");
             PlayerPrefs.SetInt("Money", player.coins + mon);
-            SceneManager.LoadScene("Menu");
+            
         }
+        
+        
+        
         else if (other.gameObject.CompareTag("Bo_up"))
         {
-            StartCoroutine(PlaySoundAndLoadScene(bo_up, null));
+            bo_up.Play();
             Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
             player.speed += 7;
             Destroy(other.gameObject);
         }
+        
+        
+        
         else if (other.gameObject.CompareTag("Bo_down"))
         {
-            StartCoroutine(PlaySoundAndLoadScene(Bo_down, null));
+            Bo_down.Play();
             Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
             player.speed -= 5;
             Destroy(other.gameObject);
         }
+        
+        
+        
         else if (other.gameObject.CompareTag("Coin"))
         {
-            StartCoroutine(PlaySoundAndLoadScene(coin, null));
+            coin.Play();
             Move player = GameObject.FindWithTag("Player").GetComponent<Move>();
             player.coins += 1;
             Destroy(other.gameObject);
         }
         
+        
+        
         else if (other.gameObject.CompareTag("Respawn"))
         {
-            
-            
+
             StartCoroutine(PlaySoundAndLoadScene(border, "-1"));
-            
-            
-            
-            
             
         }
     }
