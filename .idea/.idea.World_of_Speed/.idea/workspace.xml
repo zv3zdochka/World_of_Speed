@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/clc.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/engine_sound.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
       <workItem from="1685052701181" duration="1309000" />
       <workItem from="1685097563997" duration="7094000" />
       <workItem from="1685296523861" duration="11758000" />
-      <workItem from="1685342489334" duration="795000" />
+      <workItem from="1685342489334" duration="3682000" />
     </task>
     <servers />
   </component>

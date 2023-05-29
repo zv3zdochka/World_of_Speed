@@ -53,41 +53,41 @@ public class StartFinishScript : MonoBehaviour
         switch (level)
         {
             case "LEVEL_1":
-                if (sec <= 12)
+                if (sec <= 16)
                     return 3;
-                else if (sec <= 15)
+                else if (sec <= 19)
                     return 2;
                 else
                     return 1;
 
             case "LEVEL_2":
-                if (sec <= 20)
+                if (sec <= 24)
                     return 3;
-                else if (sec <= 25)
+                else if (sec <= 29)
                     return 2;
                 else
                     return 1;
 
             case "LEVEL_3":
-                if (sec <= 20)
+                if (sec <= 24)
                     return 3;
-                else if (sec <= 25)
+                else if (sec <= 29)
                     return 2;
                 else
                     return 1;
 
             case "LEVEL_4":
-                if (sec <= 23)
+                if (sec <= 27)
                     return 3;
-                else if (sec <= 27)
+                else if (sec <= 31)
                     return 2;
                 else
                     return 1;
 
             case "LEVEL_5":
-                if (sec <= 40)
+                if (sec <= 44)
                     return 3;
-                else if (sec <= 50)
+                else if (sec <= 54)
                     return 2;
                 else
                     return 1;
@@ -97,6 +97,7 @@ public class StartFinishScript : MonoBehaviour
                 return -1;
         }
     }
+
 
     private IEnumerator PlaySoundAndLoadScene(AudioSource sound, string sceneName)
     {
