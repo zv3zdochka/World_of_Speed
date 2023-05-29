@@ -886,6 +886,13 @@ MonoBehaviour:
   timer: {fileID: 141498134}
   mon: 0
   stars: 0
+  border: {fileID: 0}
+  portal: {fileID: 0}
+  bo_up: {fileID: 0}
+  Bo_down: {fileID: 0}
+  start: {fileID: 0}
+  coin: {fileID: 0}
+  prf: {fileID: 0}
 --- !u!82 &286740486
 AudioSource:
   m_ObjectHideFlags: 0
