@@ -39,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Skin_changer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkinChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shoper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
@@ -49,6 +48,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlaySongAndExit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +104,8 @@
       <workItem from="1685052701181" duration="1309000" />
       <workItem from="1685097563997" duration="7094000" />
       <workItem from="1685296523861" duration="11758000" />
-      <workItem from="1685342489334" duration="6735000" />
+      <workItem from="1685342489334" duration="6765000" />
+      <workItem from="1685465551007" duration="378000" />
     </task>
     <servers />
   </component>

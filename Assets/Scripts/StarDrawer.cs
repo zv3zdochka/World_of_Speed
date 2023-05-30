@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Unity.Audio;
+using UnityEngine.SceneManagement;
+
 public class StarDrawer : MonoBehaviour
 {
     public GameObject starPrefab;
@@ -100,7 +102,21 @@ public class StarDrawer : MonoBehaviour
         DrawStars(stars, starPositions);
     }
 
-    
+    void CheckStarsCount()
+    {
+        int totalStars = 0;
+        
+        totalStars += GetStarsCount("LEVEL_1");
+        totalStars += GetStarsCount("LEVEL_2");
+        totalStars += GetStarsCount("LEVEL_3");
+        totalStars += GetStarsCount("LEVEL_4");
+        totalStars += GetStarsCount("LEVEL_5");
+
+        if (totalStars == 15) 
+        {
+            SceneManager.LoadScene("Ens");
+        }
+    }
 
     void Start()
     {
@@ -109,6 +125,7 @@ public class StarDrawer : MonoBehaviour
         LEVEL_3();
         LEVEL_4();
         LEVEL_5();
+        CheckStarsCount();
         audioSource = GetComponent<AudioSource>();
         audioSource.loop = true; 
         audioSource.Play(); 
