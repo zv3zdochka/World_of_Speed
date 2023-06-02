@@ -1,6 +1,6 @@
 # Racing Game "World of Speed" on Unity
 
-This game is a racing arcade where the player must complete five levels, dodging obstacles and reaching the finish line.
+This game is a racing arcade where the player must complete five levels, dodging obstacles and reaching the finish line. Additionally, throughout the code, there are clear comments that will assist those who are learning Unity in understanding the code.
 
 ## Installation Instructions
 
@@ -89,11 +89,12 @@ The game also contains an "Exit" button that allows you to exit the game.
 
 For example, if you have a sound effect for collecting a coin...
 
+## Credits
+
+All textures, images, and other resources used in the game "World of Speed" were taken from open sources and provided for free use.
 
 ## Contact
 
 If you have any questions or issues with the game, please contact me via email: mai.batsiev.oleg@gmail.com.
 
-## Credits
 
-All textures, images, and other resources used in the game "World of Speed" were taken from open sources and provided for free use.
