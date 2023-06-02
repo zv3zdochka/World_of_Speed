@@ -1,97 +1,99 @@
-# Гоночная игра "World of Speed" на Unity
+# Racing Game "World of Speed" on Unity
 
-Эта игра - гоночная аркада, в которой игрок должен преодолеть пять уровней, уклоняясь от препятствий и добираясь до финиша.
+This game is a racing arcade where the player must complete five levels, dodging obstacles and reaching the finish line.
 
-## Инструкции по установке
+## Installation Instructions
 
-1. Скачайте и установите Unity, если у вас еще нет его на компьютере.
-2. Скачайте файлы игры из репозитория GitHub.
-3. Откройте проект в Unity.
-4. Готово к игре!
+1. Download and install Unity if you don't have it on your computer.
+2. Download the game files from the GitHub repository.
+3. Open the project in Unity.
+4. Ready to play!
 
-## Инструкции по игре
+## Gameplay Instructions
 
-1. Нажмите кнопку "Play" в меню для запуска игры.
-2. Выберете уровень сложности и постарайтесь пройти его идеально, прогресс сохранится и будет виден в меню.
-3. Используйте клавиши `W` и `S` для управления машиной вперед и назад соответственно.
-4. Используйте клавиши `A` и `D` для управления машиной влево и вправо соответственно.
-5. Уклоняйтесь от препятствий на своем пути и добирайтесь до финиша каждого уровня.
-6. Пройдите все пять уровней, чтобы победить в игре! Для доступа к следующему уровню, необходимо пройти предыдущий хотя бы на одну звезду.
-7. В конце вас ждет приятный бонус.
+1. Click the "Play" button in the menu to start the game.
+2. Choose the difficulty level and try to complete it perfectly. Your progress will be saved and visible in the menu.
+3. Use the `W` and `S` keys to control the car forward and backward, respectively.
+4. Use the `A` and `D` keys to steer the car left and right, respectively.
+5. Avoid obstacles along the way and reach the finish line of each level.
+6. Complete all five levels to win the game! To access the next level, you must complete the previous one with at least one star.
+7. A pleasant bonus awaits you at the end.
 
-## Объекты в игре
+## Game Objects
 
-В игре встречаются следующие объекты:
+The following objects can be found in the game:
 
-1. **Бустер** - ускоряет машину.
+1. **Booster** - speeds up the car.
 
-![Бустер](images_for_readme/booster.png)
+![Booster](images_for_readme/booster.png)
 
-2. **Антибустер** - замедляет машину.
+2. **Antibooster** - slows down the car.
 
-![Антибустер](images_for_readme/antibooster.png)
+![Antibooster](images_for_readme/antibooster.png)
 
-3. **Звездочка** - конец уровня.
+3. **Star** - level end marker.
 
-![Звездочка](images_for_readme/star.png)
+![Star](images_for_readme/star.png)
 
-4. **Отбойники** - объекты, в которые не стоит врезаться.
+4. **Bumpers** - objects to avoid colliding with.
 
-![Отбойник](images_for_readme/bumper.png)
+![Bumper](images_for_readme/bumper.png)
 
-![Отбойник](images_for_readme/b1.png)
+![Bumper](images_for_readme/b1.png)
 
-![Отбойник](images_for_readme/b2.png)
+![Bumper](images_for_readme/b2.png)
 
-![Отбойник](images_for_readme/b3.png)
+![Bumper](images_for_readme/b3.png)
 
-5. **Монетка** - собирайте монетки по ходу игры, от них зависит ваш результат.
+5. **Coin** - collect coins during the game; your result depends on them.
 
-![Монетка](images_for_readme/bonus.png)
+![Coin](images_for_readme/bonus.png)
 
-6. **Трасса** - не стоит покидать пределы трассы, а то уровень начнется сначала.
+6. **Track** - stay within the track boundaries; otherwise, the level restarts.
 
-![Трасса](images_for_readme/lines.png)
+![Track](images_for_readme/lines.png)
 
-## Уровни и прогресс
+## Levels and Progress
 
-Уровни включены в меню игры. Чтобы играть следующий уровень, нужно пройти предыдущий хотя бы на одну звезду. Прогресс сохраняется и отображается в меню.
+Levels are included in the game menu. To play the next level, you need to complete the previous one with at least one star. Progress is saved and displayed in the menu.
 
-## Магазин и скины
+## Shop and Skins
 
-В игре "World of Speed" также присутствует магазин, где игроки могут использовать монетки, заработанные на уровнях, для покупки различных скинов и дополнительных элементов. В магазине представлены уникальные варианты окраски машин, различные декали, аэрографии, а также модификации внешнего вида и функциональности автомобилей.
+The game "World of Speed" also features a shop where players can use coins earned in levels to purchase various skins and additional elements. The shop offers unique car color variations, different decals, airbrush designs, as well as modifications to the appearance and functionality of the cars.
 
-## Кнопка "Reset"
+## Reset Button
 
-В игре присутствует кнопка "Reset", которая сбрасывает прогресс игры, позволяя начать сначала.
+The game includes a "Reset" button that resets the game progress, allowing you to start over.
 
-## Кнопка "Exit"
+## Exit Button
 
-Игра также содержит кнопку "Exit", которая позволяет выйти из игры.
+The game also contains an "Exit" button that allows you to exit the game.
 
-## Описание файлов
+## File Description
 
-- `Assets/` - папка с ресурсами игры, такими как изображения и звуковые эффекты.
-- `Assets/Scenes/` - папка с файлами уровней игры.
-- `Assets/Resources/` - папка с файлами ресурсов, используемых в коде игры.
-- `Assets/Sounds/` - папка со звуковыми файлами игры.
-- `Assets/Scripts/` - папка с файлами скриптов, которые управляют поведением игры.
-- `README.md` - файл, который вы сейчас читаете, содержит информацию о проекте.
-- `Assets/Textures/` - папка с файлами текстур игры.
-- `Assets/Fonts/` - папка со шрифтами игры.
-- `Assets/Photos/` - папка с фонами и другими изображениями игры.
+- `Assets/` - folder containing game resources, such as images and sound effects.
+- `Assets/Scenes/` - folder containing game level files.
+- `Assets/Resources/` - folder containing resource files used in the game's code.
+- `Assets/Sounds/` - folder containing game sound files.
+- `Assets/Scripts/` - folder containing script files that control the game's behavior.
+- `README.md` - the file you are currently reading, providing information about the project.
+- `Assets/Textures/` - folder containing game texture files.
+- `Assets/Fonts/` - folder containing game fonts.
+- `Assets/Photos/` - folder containing game backgrounds and other images.
 
-## Папка Sounds
+## Sounds Folder
 
-`Assets/Sounds/` - это папка в вашем проекте, где находятся звуковые файлы, используемые в игре. Вы можете разместить звуковые эффекты, музыкальные файлы или любые другие аудиофайлы, которые должны быть воспроизведены в игре.
+`Assets/Sounds/` is the folder in your project where sound files used in the game are located. You can place sound effects, music files, or any other
 
-Например, если у вас есть звуковой эффект "подбор монетки
+ audio files that need to be played in the game.
+
+For example, if you have a sound effect for collecting a coin...
 
 
-## Контакты
+## Contact
 
-Если у вас есть вопросы или проблемы с игрой, пожалуйста, свяжитесь со мной по электронной почте: mai.batsiev.oleg@gmail.com.
+If you have any questions or issues with the game, please contact me via email: mai.batsiev.oleg@gmail.com.
 
-## Исходные материалы
+## Credits
 
-Все текстуры, изображения и другие ресурсы, используемые в игре "World of Speed", были взяты из открытых источников и предоставлены для свободного использования.
+All textures, images, and other resources used in the game "World of Speed" were taken from open sources and provided for free use.
