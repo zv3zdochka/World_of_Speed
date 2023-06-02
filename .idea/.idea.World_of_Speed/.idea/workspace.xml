@@ -6,15 +6,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
@@ -37,18 +28,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Skin_changer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SkinChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Shoper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Coins.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/but.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/clc.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/pip.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlaySongAndExit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/engine_sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerPrefsClear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlaySongAndExit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shoper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SkinChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +99,7 @@
       <workItem from="1685296523861" duration="11758000" />
       <workItem from="1685342489334" duration="6765000" />
       <workItem from="1685465551007" duration="6022000" />
-      <workItem from="1685697212041" duration="2721000" />
+      <workItem from="1685697212041" duration="4133000" />
     </task>
     <servers />
   </component>
