@@ -81,6 +81,9 @@ The game also contains an "Exit" button that allows you to exit the game.
 - `Assets/Fonts/` - folder containing game fonts.
 - `Assets/Photos/` - folder containing game backgrounds and other images.
 
+## License
+This project is licensed under the MIT license. You are free to use, modify, and distribute it in accordance with the terms of the license.
+
 ## Sounds Folder
 
 `Assets/Sounds/` is the folder in your project where sound files used in the game are located. You can place sound effects, music files, or any other
