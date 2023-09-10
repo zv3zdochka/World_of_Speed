@@ -6,16 +6,16 @@ using System.Collections;
 
 public class Move : MonoBehaviour
 {
-    public float speed = 0f; // Скорость
-    public float maxSpeed = 50f; // Максимальная скорость
-    public float sideSpeed = 0f; // Боковая скорость
-    public float rotateSpeed = 50f; // Скорость поворота
+    public float speed = 0f; 
+    public float maxSpeed = 50f; 
+    public float sideSpeed = 0f; 
+    public float rotateSpeed = 50f; 
     public int coins = 0;
-    public float acceleration = 0.03f; // Ускорение
-    public float deceleration = 0.06f; // Замедление
+    public float acceleration = 0.03f; 
+    public float deceleration = 0.06f; 
 
-    public float liftedObjectHeight = 2f; // Высота поднятия объекта
-    public float liftedObjectDuration = 2f; // Продолжительность поднятия объекта
+    public float liftedObjectHeight = 2f; 
+    public float liftedObjectDuration = 2f; 
 
     void Update()
     {

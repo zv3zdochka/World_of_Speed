@@ -42,36 +42,63 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StarDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StartFinishScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trigger.cs" />
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2QIogXAMNf31NSW6JgCb3V86Gwj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
-    <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\batsi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\batsi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\batsi\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\batsi\Unity\World_of_Speed -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\batsi\Unity\World_of_Speed" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\batsi\Unity\World_of_Speed -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\batsi\Unity\World_of_Speed" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -79,8 +106,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -99,7 +127,14 @@
       <workItem from="1685296523861" duration="11758000" />
       <workItem from="1685342489334" duration="6765000" />
       <workItem from="1685465551007" duration="6022000" />
-      <workItem from="1685697212041" duration="4133000" />
+      <workItem from="1685697212041" duration="4810000" />
+      <workItem from="1688412070459" duration="3000" />
+      <workItem from="1688412105377" duration="30000" />
+      <workItem from="1693321048444" duration="7000" />
+      <workItem from="1693325221556" duration="81000" />
+      <workItem from="1694117409586" duration="96000" />
+      <workItem from="1694287060704" duration="8000" />
+      <workItem from="1694349038345" duration="304000" />
     </task>
     <servers />
   </component>
@@ -118,75 +153,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="304" key="GridCell.Tab.0.bottom" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.0.center" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.0.left" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.0.right" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.2.bottom" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.2.center" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.2.left" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.2.right" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.3.bottom" timestamp="1685310014227">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1685310014227" />
-    <state width="1493" height="304" key="GridCell.Tab.3.center" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.3.left" timestamp="1685310014226">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1685310014226" />
-    <state width="1493" height="304" key="GridCell.Tab.3.right" timestamp="1685310014227">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="304" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1685310014227" />
   </component>
 </project>

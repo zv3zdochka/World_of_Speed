@@ -9,38 +9,38 @@ public class TimerScript : MonoBehaviour
 
     void Start()
     {
-        timerText = GetComponent<TextMeshPro>(); // Get the TextMeshPro component attached to the same game object
+        timerText = GetComponent<TextMeshPro>();
     }
 
     void Update()
     {
         if (isTimerRunning)
         {
-            timeRemaining += Time.deltaTime; // Update the time remaining with the elapsed time
-            UpdateTimerText(); // Update the timer text
+            timeRemaining += Time.deltaTime;
+            UpdateTimerText();
         }
     }
 
     void UpdateTimerText()
     {
-        int seconds = (int)(timeRemaining % 60); // Calculate the remaining seconds
-        int minutes = (int)(timeRemaining / 60) % 60; // Calculate the remaining minutes
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds); // Format the timer text as "MM:SS"
+        int seconds = (int)(timeRemaining % 60);
+        int minutes = (int)(timeRemaining / 60) % 60;
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     public void StartTimer()
     {
-        timeRemaining = 0; // Reset the time remaining
-        isTimerRunning = true; // Start the timer
+        timeRemaining = 0;
+        isTimerRunning = true;
     }
 
     public void StopTimer()
     {
-        isTimerRunning = false; // Stop the timer
+        isTimerRunning = false;
     }
 
     public float GetTime()
     {
-        return timeRemaining; // Return the current time remaining
+        return timeRemaining;
     }
 }

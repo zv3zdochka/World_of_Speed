@@ -4,7 +4,7 @@ public class engine_sound : MonoBehaviour
 {
     public AudioSource sound1;
     public AudioSource sound2;
-    public float volumeChangeDuration = 2.5f; // Длительность изменения громкости
+    public float volumeChangeDuration = 2.5f;
 
     private bool isPlayingSound1;
     private bool isPlayingSound2;
@@ -35,7 +35,7 @@ public class engine_sound : MonoBehaviour
 
     private System.Collections.IEnumerator PlayDelayedSound1()
     {
-        yield return new WaitForSeconds(1.3f); // Задержка в 2 секунды
+        yield return new WaitForSeconds(1.3f); 
 
         isWaiting = false;
         sound1.Play();
@@ -44,12 +44,12 @@ public class engine_sound : MonoBehaviour
 
     private void Update()
     {
-        // Проверяем, нажаты ли кнопки WASD
+
         bool isWPressed = Input.GetKey(KeyCode.W);
         bool isSPressed = Input.GetKey(KeyCode.S);
         bool isSpacePressed = Input.GetKey(KeyCode.Space);
 
-        // Если не нажата ни одна кнопка и не ожидается, играем звук 1
+
         if (!isWPressed && !isSPressed && !isSpacePressed && !isPlayingSound2 && !isPlayingSound3 && !isWaiting)
         {
             if (!isPlayingSound1)
@@ -60,7 +60,7 @@ public class engine_sound : MonoBehaviour
                 volumeChangeStartTime = Time.time;
             }
         }
-        // Если нажата хотя бы одна кнопка WASD, играем звук 2
+
         else if ((isWPressed || isSPressed) && !isPlayingSound3)
         {
             if (!isPlayingSound2)
@@ -72,14 +72,14 @@ public class engine_sound : MonoBehaviour
                 volumeChangeStartTime = Time.time;
             }
         }
-        // Если нажата кнопка Пробел, играем звук 3
+        
         else if (isSpacePressed)
         {
             sound1.Stop();
             sound2.Stop();
             isPlayingSound3 = true;
         }
-        // Если ни одна из вышеперечисленных кнопок не нажата, останавливаем все звуки и сбрасываем флаги
+        
         else
         {
             sound1.Stop();
@@ -92,7 +92,7 @@ public class engine_sound : MonoBehaviour
             volumeChangeStartTime = Time.time;
         }
 
-        // Изменение громкости звука 1
+        
         if (isPlayingSound1)
         {
             float elapsed = Time.time - volumeChangeStartTime;
@@ -100,7 +100,7 @@ public class engine_sound : MonoBehaviour
             sound1.volume = Mathf.Lerp(1.0f, sound1TargetVolume, t);
         }
 
-        // Изменение громкости звука 2
+        
         if (isPlayingSound2)
         {
             float elapsed = Time.time - volumeChangeStartTime;
