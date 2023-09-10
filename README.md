@@ -1,6 +1,6 @@
 # Racing Game "World of Speed" on Unity
 
-This game is a racing arcade where the player must complete five levels, dodging obstacles and reaching the finish line. Additionally, throughout the code, there are clear comments that will assist those who are learning Unity in understanding the code.
+This game is a racing arcade where the player must complete five levels, dodging obstacles and reaching the finish line. Additionally, this repo will assist those who are learning Unity in understanding the code.
 
 ## Installation Instructions
 
