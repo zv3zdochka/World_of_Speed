@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -64,6 +67,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
@@ -134,7 +138,7 @@
       <workItem from="1693325221556" duration="81000" />
       <workItem from="1694117409586" duration="96000" />
       <workItem from="1694287060704" duration="8000" />
-      <workItem from="1694349038345" duration="304000" />
+      <workItem from="1694349038345" duration="658000" />
     </task>
     <servers />
   </component>
